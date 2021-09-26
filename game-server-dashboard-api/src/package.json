@@ -1,0 +1,17 @@
+{
+  "name": "game-server-dashboard-api",
+  "version": "1.0.0",
+  "description": "API for the Game Server Dashboard",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle O'Keeffe",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
