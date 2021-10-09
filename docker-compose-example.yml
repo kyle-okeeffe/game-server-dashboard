@@ -1,0 +1,11 @@
+services:
+  dashboard:
+    image: kyleokeeffe/game-dashboard:latest
+    ports:
+      - "80:80"
+      - "3001:3001"
+    environment:
+      - AWS_ACCESS_KEY_ID=AKIAWX5PFBT5TRLBL3QU
+      - AWS_SECRET_ACCESS_KEY=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
+      - API_BASE_URL=http://localhost
+      - API_PORT=3001
